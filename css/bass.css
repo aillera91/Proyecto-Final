@@ -72,7 +72,7 @@ article img {
   max-width: 100%;
   height: auto;
   align-items: center;
-  margin: 0 auto; /* Centra las imágenes dentro de su contenedor */
+  margin: 0 auto;
 }
 
 .contenedor-izq {
