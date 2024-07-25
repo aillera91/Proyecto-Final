@@ -1,0 +1,43 @@
+aside {
+    grid-column: -9/-1;
+    grid-row: 3;
+    background-color: #4cec94;
+    padding: 30px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+}
+
+.carousel-container {
+    display: flex;
+    width: 1100%; 
+    animation: slide 45s infinite;
+    height: 100%;
+}
+
+.carousel-slide img {
+    width: 9.0909%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    9.0909% { transform: translateX(0%); }
+    18.1818% { transform: translateX(-9.0909%); }
+    27.2727% { transform: translateX(-18.1818%); }
+    36.3636% { transform: translateX(-27.2727%); }
+    45.4545% { transform: translateX(-36.3636%); }
+    54.5455% { transform: translateX(-45.4545%); }
+    63.6364% { transform: translateX(-54.5455%); }
+    72.7273% { transform: translateX(-63.6364%); }
+    81.8182% { transform: translateX(-72.7273%); }
+    90.9091% { transform: translateX(-81.8182%); }
+    100% { transform: translateX(-90.9091%); }
+}

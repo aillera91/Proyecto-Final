@@ -6,6 +6,18 @@
 body {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+}
+
+header {
+  background-color: #1f8efa;
+  color: #ffffff;
+  margin: 20px;
+  grid-column: 1/9;
+  height: 80%;
+  width: 97%;
+  padding: 3rem;
+  text-align: center;
 }
 
 #menu {
